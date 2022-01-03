@@ -1,3 +1,20 @@
+# Modified instruction for this forked repo
+```javascript
+./deploySonar 8001
+npm install mocha-sonar-generic-test-coverage --save-dev
+npm install && npm test
+npm install && \
+	cd demo && \
+	npm install && \
+	npm start
+./runSonar 8001
+
+```
+
+
+
+# Original instruction as below
+
 # Introduction
 This is a mocha reporter project to integrate mocha unit tests to [sonar Generic Test coverage unit tests execution results](http://docs.sonarqube.org/display/PLUG/Generic+Test+Coverage#GenericTestCoverage-UnitTestsExecutionResultsReportFormat)
 
